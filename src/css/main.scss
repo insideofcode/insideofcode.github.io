@@ -32,9 +32,14 @@ header#cover {
 }
 
 main {
-    @apply py-10;
+    @apply py-10 m-auto;
+    max-width: 900px;
 
     h2 {
-        @apply text-3xl font-bold;
+        @apply text-4xl font-bold;
+    }
+
+    section ul li {
+        @apply mb-5;
     }
 }
