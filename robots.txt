@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-login/
+Disallow: /blog/wp-content/
+
+
+Allow: /blog/wp-admin/admin-ajax.php
+
+
+Sitemap: https://insideofcode.com/blog/sitemap_index.xml

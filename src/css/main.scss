@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header#cover {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        opacity: 0.1;
+        position: absolute;
+        z-index: 1;
+    }
+    h1 {
+        z-index: 2;
+        font-family: 'Ubuntu';
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: 'Ubuntu';
+    }
+}
+
+* {
+    font-family: 'Ubuntu';
+}
+
+main {
+    @apply py-10 m-auto;
+    max-width: 900px;
+
+    h2 {
+        @apply text-4xl font-bold;
+    }
+
+    section ul li {
+        @apply mb-5;
+    }
+}

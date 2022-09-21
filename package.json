@@ -1,5 +1,5 @@
 {
-  "name": "insideofcode.github.io",
+  "name": "18.-ioc-landing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://daniwebdev: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@github.com/insideofcode/insideofcode.github.io.git"
+    "url": "git+https://github.com/insideofcode/insideofcode.github.io.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,11 +18,14 @@
   },
   "homepage": "https://github.com/insideofcode/insideofcode.github.io#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.54.0",
-    "tailwindcss": "^3.1.7"
-  },
-  "dependencies": {
-    "gulp": "^4.0.2"
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.5",
+    "tailwindcss": "^3.1.8"
   }
 }
