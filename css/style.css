@@ -576,6 +576,10 @@ video {
   max-width: 42rem;
 }
 
+.flex-shrink {
+  flex-shrink: 1;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1331,6 +1335,10 @@ video {
 
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
 }
 
 .grid-cols-1 {
